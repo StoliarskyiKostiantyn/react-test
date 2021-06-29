@@ -8,5 +8,4 @@ const element = (
     {elem2}
   </div>
 );
-sdfadsad;
 ReactDOM.render(element, document.querySelector("#root"));
