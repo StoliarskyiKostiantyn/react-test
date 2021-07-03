@@ -1,11 +1,5 @@
+import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 
-const elem1 = <span>Привет мир</span>;
-const elem2 = <span> я реакт</span>;
-const element = (
-  <div>
-    {elem1}
-    {elem2}
-  </div>
-);
-ReactDOM.render(element, document.querySelector("#root"));
+ReactDOM.render(<App />, document.querySelector("#root"));
